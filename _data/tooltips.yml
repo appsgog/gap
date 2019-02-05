@@ -1,0 +1,91 @@
+common:
+  - tag: homelink
+    info: OpenGApps.org Home
+  - tag: donatelink
+    info: Support by Donation
+  - tag: githublink
+    info: Source on GitHub
+  - tag: xdalink
+    info: Community on XDA Forum
+  - tag: wikilink
+    info: Manual on Wiki
+  - tag: pushbulletlink
+    info: Follow via Pushbullet
+  - tag: applink
+    info: Download Open GApps App
+  - tag: bloglink
+    info: Open GApps Blog
+  - tag: facebooklink
+    info: Open GApps on Facebook
+  - tag: googlepluslink
+    info: Open GApps on Google+
+  - tag: twitterlink
+    info: Open GApps on Twitter
+  - tag: youtubelink
+    info: Open GApps on YouTube
+  - tag: playstorelink
+    info: Open GApps App
+  - tag: adlabelheader
+    info: Ads help us to keep OpenGApps.org packages free
+  - tag: adlabelfooter
+    info: Ads help us to keep OpenGApps.org packages free
+  - tag: adlabel
+    info: Ads help us to keep OpenGApps.org packages free
+
+home:
+  - tag: tplatform
+    info: CPU Architecture; If you don't know your platform, choose <em>ARM</em>
+  - tag: larm
+    info: <em>ARM</em> used to be the most popular 32-bit platform
+  - tag: larm64
+    info: <em>ARM64</em> is supported by most devices released since 2016 and the most popular 64-bit platform
+  - tag: lx86
+    info: <em>x86</em> is less common, but used on e.g. the Zenfone
+  - tag: lx86_64
+    info: <em>x86_64</em> is very uncommon, but used on e.g. some Android emulators
+  - tag: tandroid
+    info: Android Version; In <em>Settings→About→Android version</em> you can find the major version of your installed Android OS
+  - tag: l4.4
+    info: <em>4.4 stock & full</em> installs some applications on /data/ instead of /system/
+  - tag: l7.0
+    info: <em>7.0</em> requires a patched ROM for proper WebView support
+  - tag: l7.1
+    info: <em>7.1</em> requires a patched ROM for proper WebView support
+  - tag: l8.0
+    info: <em>8.0</em> requires a patched ROM for proper WebView support
+  - tag: l8.1
+    info: <em>8.1</em> requires a patched ROM for proper WebView support
+  - tag: l9.0
+    info: <em>9.0</em> requires a patched ROM for proper WebView support
+  - tag: tvariant
+    info: Package Variant; The set of applications differs per variant, <em>click for a comparison-table</em>
+  - tag: laroma
+    info: Graphical installer of the <em>super</em> package, allows to select which applications to install
+  - tag: lsuper
+    info: For those who want everything, includes all Google Apps that were ever shipped on a Google device
+  - tag: lstock
+    info: Recommended package for recent devices, includes all Google Apps that come standard on the latest Nexus Phone
+  - tag: lfull
+    info: Very similar to <em>stock</em>, but does not replace non-Google stock-applications
+  - tag: lmini
+    info: 'Smaller set of Google Apps: the most popular applications plus extra functionality that is not available from the Play Store'
+  - tag: lmicro
+    info: 'Limited set of Google Apps: Gmail, Calendar, Google Now plus extra functionality that is not available from the Play Store'
+  - tag: lnano
+    info: Minimal installation, but including the extra functionality that is not available from the Play Store
+  - tag: lpico
+    info: The bare minimum to get Google Play functionality
+  - tag: ltvstock
+    info: Package for Android TV devices, includes all Google Apps that come standard on the latest Nexus Player
+  - tag: github-latest
+    info: Date and size of the latest release of the selected package
+  - tag: bdownload
+    info: Download selected Open GApps package
+  - tag: bversion
+    info: Buildlog with version information of the applications and libraries used during the creation of the selected package
+  - tag: bmd5
+    info: Download a md5 checksum file that can be used by the Android device's recovery to verify the integrity of the selected package
+  - tag: breport
+    info: Detailed version information of the applications used for the daily build of the selected platform architecture and android version
+  - tag: bolder
+    info: List all older releases for this platform architecture
