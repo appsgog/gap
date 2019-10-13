@@ -1,4 +1,4 @@
-Var Archs = [{% For I In Site.data.table.arch %}'{{i.name}}',{% endfor %}];
+var archs = [{% for i in site.data.table.arch %}'{{i.name}}',{% endfor %}];
 var apis = [{% for i in site.data.table.api %}'{{i.name}}',{% endfor %}];
 var variants = [{% for i in site.data.table.variant %}'{{i.name}}',{% endfor %}];
 var packages = {};
