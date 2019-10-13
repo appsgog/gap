@@ -308,7 +308,7 @@ function validateAds() {
         var donateTitles = ['Please Donate!', 'Support Open GApps'];
         setAd(donateTextElement.parentElement, '<div id="donatebox"><div id="donatetitle" class="mdl-typography--display-1"><a href="#" onclick="window.paypal();return false;" title="The project is supported by donations and advertisements">' +
                 donateTitles[Math.round(Math.random())] +
-                '</a></div><br /><div id="donatebody" class="mdl-typography--body-1">You blocked the advertisements, that is OK. But please consider a <a href="#" onclick="window.paypal();return false;">donation</a> to the project instead!</div><div id="donatespace"><br /></div><a href="#" onclick="window.paypal();return false;"><div id="donaterectangle"><i class="material-icons" style="color:#f5f5f5">favorite</i></div></a><br /><div id="donatecaption" class="mdl-typography--caption-color-contrast">The advertisement revenue supports the projects\' efforts. Can\'t donate? <a href="abp:subscribe?location=http%3A%2F%2Fopengapps.org%2Fopengapps.org.abp.txt&amp;title=Open%20GApps" title="Add opengapps.org to your Adblocker\'s whitelist">Please unblock our ads!</a></div></div>', 'Donate');
+                '</a></div><br /><div id="donatebody" class="mdl-typography--body-1">You blocked the advertisements, that is OK. But please consider a <a href="#" onclick="window.paypal();return false;">donation</a> to the project instead!</div><div id="donatespace"><br /></div><a href="#" onclick="window.paypal();return false;"><div id="donaterectangle"><i class="material-icons" style="color:#f5f5f5">favorite</i></div></a><br /><div id="donatecaption" class="mdl-typography--caption-color-contrast">The advertisement revenue supports the projects\' efforts. Can\'t donate? <a href="abp:subscribe?location=https%3A%2F%2Fgapps.knoacc.org%2Fopengapps.org.abp.txt&amp;title=Open%20GApps" title="Add opengapps.org to your Adblocker\'s whitelist">Please unblock our ads!</a></div></div>', 'Donate');
     } else {
         gaEvent('Ads', 'display', 'AdSense' +
                 (donateTextOnFirst
@@ -583,7 +583,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .componentHandler
         .upgradeDom();
     try {
-        (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: 'ca-pub-8526606076277673', enable_page_level_ads: true})
+        (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: 'ca-pub-9489060368971640', enable_page_level_ads: true})
     } catch (e) {};
     for (var iAd = 0; iAd < document.getElementsByClassName('adsbygoogle').length; iAd++) {
         try {
