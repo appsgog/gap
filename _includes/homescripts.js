@@ -1,4 +1,4 @@
-var archs = [{% for i in site.data.table.arch %}'{{i.name}}',{% endfor %}];
+Var Archs = [{% For I In Site.data.table.arch %}'{{i.name}}',{% endfor %}];
 var apis = [{% for i in site.data.table.api %}'{{i.name}}',{% endfor %}];
 var variants = [{% for i in site.data.table.variant %}'{{i.name}}',{% endfor %}];
 var packages = {};
@@ -583,7 +583,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .componentHandler
         .upgradeDom();
     try {
-        (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: 'ca-pub-9489060368971640', enable_page_level_ads: true})
+        (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: 'ca-pub-8526606076277673', enable_page_level_ads: true})
     } catch (e) {};
     for (var iAd = 0; iAd < document.getElementsByClassName('adsbygoogle').length; iAd++) {
         try {
